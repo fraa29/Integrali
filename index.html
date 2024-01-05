@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Integrali</title>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1 {
+                font-size: 3em; /* Dimensione del testo per dispositivi desktop */
+                line-height: 1.2;
+                text-align: center;
+            }
+    
+            @media (max-width: 600px) {
+                h1 {
+                    font-size: 2em; /* Dimensione del testo per dispositivi più piccoli */
+                }
+            }
+            .contenuto{
+                display: flex;
+            }
+            .contenitore {
+                width: 45%;
+                flex: 1;
+                padding: 10px;
+                color: aliceblue;
+            }
+            footer{
+              position: fixed;
+              bottom: 0;
+              
+              padding: 5px;
+              
+              background-color: black;
+              border-radius: 15px;
+              color: rgb(255, 255, 255);
+          }
+
+        </style>
+</head>
+<body style="background-color: black;">
+
+<h1 style="color: aliceblue;">GLI INTEGRALI</h1>
+<h2 style="text-align: center; color: aliceblue;"> In matematica esistono due tipi di integrali (definiti e indefiniti) che  hanno scopi differenti:</h2>
+<br><br>
+
+<div style="background-color: rgba(255,255,255, 0.3); padding-left: 10px; border-radius:10px; text-align: center;color: aliceblue;">           
+            
+    <br>
+    <p style="font-size: large;">
+        In entrambi i casi la funzione all'interno dell'integrale è detta <b>funzione integranda</b>. Il simbolo "dx" è invece detto <b>differenziale della variabile di integrazione</b>.
+    </p>
+    <br> 
+
+</div>
+<br><br>
+<div class="contenuto">
+
+    <div class="contenitore" style="font-size: 19px;"> <!-- scrittura a sinistra-->
+        <b style="color: rgb(213, 48, 48);font-size: 23px;">Gli integrali definiti :</b> <br>permettono di calcolare l'area di una superficie regolare o irregolare. Nel simbolo dell'integrale sono indicati gli estremi a,b di integrazione. Il risultato è un numero reale. Come illustra la formula:
+
+        <br> <br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192428793885888513/Screenshot_2024-01-04_alle_12.21.00.png?ex=65a90ada&is=659695da&hm=e40d1ae08a3d953d489b021c52d00ce3b3aff83fa96932082b3fd070aacf4adc&" style="padding-left: 10%;border-radius: 10px;">
+
+        <br><br><br><br><br><br>
+        <b style="color: rgb(213, 48, 48); font-size: 23px;">Cosa misura l'integrale indefinito?</b><br> L'integrale definito misura l'area (A) della funzione tra il grafico della funzione f(x) e l'ascisse (x) in un intervallo (a,b). Quindi, è un numero reale. 
+
+        <br><br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192432686007070780/Screenshot_2024-01-04_alle_12.40.42.png?ex=65a90e7a&is=6596997a&hm=e0a7576f98ec4c0adb5daa9b9c6dfb4e0abba43c13e447c618e633a976addb8a&" width="500px" height="350px" style="padding-left: 4%;border-radius: 10px;">
+    </div>
+
+
+    <div class="contenitore" style="font-size: 19px;"> <!-- scrittura a destra-->
+        <b style="color: rgb(213, 48, 48);font-size: 23px;"> Gli integrali indefiniti :</b> <br>calcolano la primitiva di una funzione. Sono l'operazione inversa della derivata. Per questo sono anche detti antiderivata. Nel simbolo non sono indicati gli estremi di integrazione. Il risultato è una famiglia di funzioni primitive. Come illustra la formula:
+
+        <br><br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192428838492311562/Screenshot_2024-01-04_alle_12.21.33.png?ex=65a90ae5&is=659695e5&hm=0277ad987b0fefcd26eff5e096ae76ca7d5ca2a2f13c0aa3fd9287979c8c0305&" style="padding-left: 5%;  border-radius: 10px;">
+        <br><br><br><br><br><br>
+        
+        <b style="color: rgb(213, 48, 48); font-size: 23px;">Cosa calcola l'integrale indefinito?</b> <br>
+        L'integrale indefinito calcola l'antiderivata (o primitiva) di una funzione. Quindi, è una famiglia di funzioni del tipo F(x)+c.
+
+        <br><br><br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192434472835088484/Screenshot_2024-01-04_alle_12.48.36.png?ex=65a91024&is=65969b24&hm=96f5dbc71338f0d2e20cd1316a1ed23d73b5b64f02b60ee8463a0124c1870240&" style="padding-left: 5%; border-radius: 10px;" width="500" height="350">
+
+        <br><br>
+        <div style="background-color: rgba(255,255,255, 0.3); padding-left: 10px; border-radius:10px;color: aliceblue;">           
+            
+            <br>
+            <p style="font-size: large;">
+                <p style="color:rgb(255, 0, 0);font-size: larger;">Cos'è una primitiva? </p>
+                Una funzione F(x) si dice primitiva di un'altra funzione f(x), se la derivata di F'(x) è uguale a f(x). Ogni funzione ha infinite primitive perché la derivata di qualsiasi costante (c) è sempre nulla.
+            </p>
+            <br> 
+
+        
+        </div>
+
+    </div>
+    
+</div>
+<hr>
+<h2 style="text-align: center; color: aliceblue;"> Come calcolare gli integrali:</h2>
+
+<div class="contenuto">
+    <div class="contenitore" style="font-size: 19px;"> <!-- scrittura a sinistra-->
+        <h2 style="padding-left: 25%;">DEFINITI</h2>
+        <br><br>
+        Pur avendo scopi diversi, il calcolo di un integrale definito può essere svolto tramite le regole degli integrali indefiniti con il <b>teorema fondamentale del calcolo integrale</b>.
+        <br><br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192449128672809090/Screenshot_2024-01-04_alle_13.46.18.png?ex=65a91dca&is=6596a8ca&hm=eeca78bbf1760f919ccf9b93b6ccf0f5857787252d3e5a190691edd62ee4950f&" width="100%" style="border-radius: 10px;">
+
+        <br><br>
+        Si può usare soltanto se le funzioni sono continue e derivabili.
+        <br><br>
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192449096968065084/Screenshot_2024-01-04_alle_13.46.30.png?ex=65a91dc3&is=6596a8c3&hm=f3864ddd3d4745745516c60fde37134133fa1a658d6ab42dde7b621666ac25cb&" width="100%" style="border-radius: 10px;">
+    </div>
+
+    <div class="contenitore" style="font-size: 19px;"> <!-- scrittura a destra-->
+        <h2 style="padding-left: 40%;">INDEFINITI</h2>
+        <br><br>
+        L'integrale indefinito è l'operazione inversa della derivata.<br>
+        Mentre la derivata abbassa di un grado la funzionen, l'integrale alza di un grado.
+        <br><br>
+
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192449188030591066/Screenshot_2024-01-04_alle_13.45.27.png?ex=65a91dd9&is=6596a8d9&hm=3045e1f75cb0df9c76bf23291f7428233b436e70afcc05c91df56cc6857d0bf3&" style="border-radius: 10px;">
+
+        <br><br>
+        Per calcolare gli integrali indefiniti più velocemente all'inizio possiamo aiutarci con un formulario:
+        <br><br>
+
+        <img src="https://cdn.discordapp.com/attachments/592372605684809759/1192793239464456384/Screenshot_2024-01-05_alle_12.33.53.png?ex=65aa5e45&is=6597e945&hm=e6fef1cb738e4eb62ec5ff896ca5e3af162661620f2f5eb242b160b7c3075ed1&" width="100%" style="border-radius: 10px;">
+        <br><br>
+    </div>
+</div>
+<hr>
+<h2 style="text-align: center; color: aliceblue;">Teorema fondamentale del calcolo integrale</h2>
+<div style="background-color: rgba(238, 246, 6, 0.862); padding: 10px; border-radius:10px;">           
+            
+    <br>
+    <h2 style="text-align: center;">ENUNCIATO</h2>
+    
+    <img src="https://cdn.discordapp.com/attachments/967156095686672444/1192801589954629682/Screenshot_2024-01-05_alle_13.06.50.png?ex=65aa660c&is=6597f10c&hm=65670e64bb63122feec92d1d2395597a149477cb8f935960c3f71afa87deb6a1&" width="100%" style="align-items: center;border-radius: 10px;">   
+    <br> 
+
+   
+</div>
+
+<p style="color:aliceblue;font-size: larger; text-align: center;"> In altre parole. La funzione integrale F(x) così definita, è una primitiva di <i>f</i> (x) <br>
+
+</p>
+<p style="color: aliceblue;font-size: larger;">
+    La <b>Dimostrazione</b> di questo Teorema è spiegabile in quest'ordine:
+</p>
+<div style="background-color: red;padding: 10px;border-radius: 10px;">
+    <img src="https://cdn.discordapp.com/attachments/967156095686672444/1192804280860684389/Screenshot_2024-01-05_alle_13.17.55.png?ex=65aa688d&is=6597f38d&hm=740f2146ce64482f31684996fbddf1356d7d493d18999150f2b288a33f76d55d&" width="100%" style="border-radius: 10px;">
+    <img src="https://cdn.discordapp.com/attachments/967156095686672444/1192809369549676594/Screenshot_2024-01-05_alle_13.38.22.png?ex=65aa6d4b&is=6597f84b&hm=42cc28ae03425484fed6d059b0f5dac1d98b7bff4e3c149a6814eb4d98b1e28c&" width="100%" style="border-radius: 10px;">
+</div>
+<br><br>
+<p style="color: aliceblue;font-size: larger;"> Dalla seguente Dimostrazione si è anche potuta ricavare una formula che serve tutt'ora per calcolare l'integrale definito di una funzione per mezzo di una sua primitiva</p>
+
+<img src="https://cdn.discordapp.com/attachments/967156095686672444/1192811208995246091/Screenshot_2024-01-05_alle_13.41.08.png?ex=65aa6f01&is=6597fa01&hm=74e2959310d19e9395e381741cd1f6c2bd634d08c6cf27bf6d92c2b45d9e9c02&" width="100%" style="border-radius: 10px;">
+<br><br><br><br><br><br><br><br>
+</div>
+           
+           
+           <footer><i><h3>By Francesco Di Biagio</h3></i></footer>
+             </div>
+</body>
+
+</html>
