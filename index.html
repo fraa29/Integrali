@@ -12,21 +12,19 @@
                 text-align: center;
             }
     
-            @media (max-width: 600px) {
+            @media (max-width: 1400px) {
                 h1 {
                     
-                    font-size: auto; /* Dimensione del testo per dispositivi più piccoli */
+                    font-size: 2em; /* Dimensione del testo per dispositivi più piccoli */
                 }
-                img{
-                    display: block;
-                    max-width: 100%px;
-                    height: auto;
-                    margin: auto;
-
+                .contenitore {
+                   flex: calc(50%-20px);
                 }
+                
             }
             .contenuto{
                 display: flex;
+                flex-wrap: wrap;
             }
             .contenitore {
                 width: 45%;
@@ -45,6 +43,13 @@
               border-radius: 15px;
               color: rgb(255, 255, 255);
           }
+          .contenitore img{
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                    margin: auto;
+
+                }
 
         </style>
 </head>
